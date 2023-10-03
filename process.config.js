@@ -1,13 +1,13 @@
 module.exports = {
   apps: [
     {
-      script: 'cadastropessoas.js',
+      script: 'gameserver.js',
       cwd: 'backend/',
       name: 'Backend',
       watch: true
     },
     {
-      script: 'cadastropessoas.js',
+      script: 'gamefront.js',
       cwd: 'frontend/',
       name: 'Frontend',
       watch: true
